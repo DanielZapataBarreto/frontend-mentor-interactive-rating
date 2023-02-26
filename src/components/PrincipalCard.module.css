@@ -1,0 +1,15 @@
+.cardImg {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--medium-grey);
+  border-radius: 50px;
+}
+
+.cardImg img {
+  width: 16px;
+  height: 16px;
+}

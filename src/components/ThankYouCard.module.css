@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardSelection {
+  margin: 15px 0;
+  padding: 8px 13px;
+  background-color: var(--medium-grey);
+  color: var(--orange);
+  border-radius: 15px;
+}
+
+.card p {
+  text-align: center;
+}

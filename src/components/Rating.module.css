@@ -1,0 +1,30 @@
+.rating {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--medium-grey);
+  border-radius: 40px;
+  color: var(--light-grey);
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.rating:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.ratingActive {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+
+@media (min-width: 1440px) {
+  .rating {
+    width: 50px;
+    height: 50px;
+  }
+}
